@@ -1,0 +1,24 @@
+{
+  "name": "festival",
+  "version": "1.0.0",
+  "description": "aprendiendo sass y npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francescaac190/festival.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP"
+  ],
+  "author": "Francesca Antelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francescaac190/festival/issues"
+  },
+  "homepage": "https://github.com/francescaac190/festival#readme"
+}
