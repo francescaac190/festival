@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "aprendiendo sass y npm",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/francescaac190/festival/issues"
   },
-  "homepage": "https://github.com/francescaac190/festival#readme"
+  "homepage": "https://github.com/francescaac190/festival#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.82.0"
+  }
 }
